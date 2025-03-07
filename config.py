@@ -3,7 +3,7 @@ from sqlalchemy import create_engine
 
 import urllib
 
-class Config(object)
+class Config(object):
     SECRET_KEY='Clave nueva'
     SESION_COOKIE_SECURE=False
 
